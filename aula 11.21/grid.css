@@ -1,0 +1,14 @@
+* { margin: 0px; padding: 0px; font-size: 26px;}
+div { border:2px solid black ;}
+
+main { display: grid; grid-template-columns: repeat(4, 1fr) minmax(100px, 100px) repeat(1,2fr) min-content max-content}  
+.header-bgcolor { background-color: green;}
+.menu1-bgcolor { background-color: aqua;}
+.menu2-bgcolor { background-color: blue;}
+.content-bgcolor { background-color: blueviolet;}
+.footer-bgcolor { background-color: orangered;}
+
+main { display: grid; grid-template-columns: 1fr; grid-template-rows: 80px 50px repeat(2, 80%) 50px; grid-row-gap: 8px; grid-column-gap: 8px;} 
+
+.grid-aling { grid-column-start: 1; grid-column-end: 3;}
+

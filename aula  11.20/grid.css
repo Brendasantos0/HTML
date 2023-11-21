@@ -2,4 +2,4 @@
 
 .div-border { border: 3px solid black;}
 
-.container-main { display: grid; grid-template-columns: 25vw 50vw 25vw;grid-template-rows: 20vh  60vh 20vh; grid-row-gap: 10px; grid-colum-gap: 10px;}
+.container-main { display: grid; grid-template-columns: 25vw 50vw 25vw;grid-template-rows: 20vh  60vh 20vh; grid-row-gap: 10px; grid-column-gap: 10px;}

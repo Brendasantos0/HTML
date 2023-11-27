@@ -1,0 +1,37 @@
+* {margin: 0px; padding: 0px; box-sizing: border-box; font-size: 26px; color: #ffffff;}
+
+body { background-color: black; display: grid; width: 70%; height: 90vh; margin: 20px auto;gap: 5px; grid-template-columns: 3fr 9fr;grid-template-rows: 80px 80px repeat(4, 1fr) 80px; grid-template-areas:
+    "header header header"
+    "nav main"
+    "nav main"
+    "main"
+    "main"
+    "main"
+    "areamorta main"
+    "areamorta main"
+    "areamorta main"
+    "footer footer";}
+
+header { background-image: linear-gradient(to right, #966f96 ,#ffcbdb); grid-area: header;}
+nav {background-image: linear-gradient(to right, #966f96 ,#ffcbdb); grid-area: nav;}
+div {background-image: linear-gradient(to right, #966f96 ,#ffcbdb); grid-area: areamorta;}
+main {background-image: linear-gradient(to right, #966f96 ,#ffcbdb); grid-area: main; display: grid; gap: 10px; padding-top: 80px;}
+   grid-template-areas: none
+   "div1 div1 div2 div3"
+   "div4 div8 div2 div7"
+   "div5 div5 div9 div7"
+   "div5 div5 div9 div10"
+   "div6 div6 div6 div10"
+
+footer {background-image: linear-gradient(to right, #966f96 ,#ffcbdb); grid-area: footer;}
+
+#div1 { grid-area: div1;}
+#div2 { grid-area: div2;}
+#div3 { grid-area: div3;}
+#div4 { grid-area: div4;}
+#div5 { grid-area: div5;}
+#div6 { grid-area: div6;}
+#div7 { grid-area: div7;}
+#div8 { grid-area: div8;}
+#div9 { grid-area: div9;}
+#div10 { grid-area: div10;}

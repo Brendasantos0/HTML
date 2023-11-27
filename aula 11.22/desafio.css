@@ -1,0 +1,24 @@
+* { margin: 0px; padding: 0px; font-size: 26px;}
+
+body { background-color: black;  }
+
+body { background-color: #d9d9d9; display: grid; width: 100vw; height: 100vh; grid-template-columns:20% 60% 20%; grid-template-rows: 5% 5% 80% 5% 5%; grid-template-areas:
+    "header  header header"
+    "nav article ads"
+    "nav article ads1"
+    "nav article ads2"
+    "nav article ads3"
+    "nav article ads4"
+    "nav article ads5";}
+
+header {background-color: #ffffff grid-area: header; }
+nav { background-color: yellow; grid-area: nav;}
+article { background-color: red; grid-area: article;}
+div { background-color: blue; grid-area: div;}
+div { background-color: yellow; grid-area: div;}
+div { background-color: red; grid-area: div;}
+div { background-color: blue; grid-area:div;}
+div { background-color: black; grid-area: div;}
+
+
+div { background-color: #ffffff; grid-area: div;}

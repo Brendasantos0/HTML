@@ -1,0 +1,8 @@
+* { margin: 0px; padding: 0px; box-sizing: border-box;}
+
+
+header { background-color: blue; grid-area: header;}
+nav { background-color: aquamarine; grid-area: nav}
+article { background-color: pink; grid-area: article}
+div { background-color: aquamarine; grid-area: div}
+footer { background-color: blue; grid-area: footer;}

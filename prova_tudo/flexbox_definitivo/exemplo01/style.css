@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    /*flex-direction: row; /*Alinha os objetos um ao lado do outro!*/
+    /*flex-direction: row-reverse; /*Alinha os objetos um ao lado do outro na ordem contrária!*/
+    /*flex-direction: column-reverse; /*Alinha os objetos um abaixo do outro em ordem reversa!*/
+    flex-direction: column; /*Alinha os objetos um abaixo do outro!*/
+    /*flex-wrap: wrap-reverse; /*Os itens flexíveis são quebrados em multiplas linhas de forma reversa.*/
+    flex-wrap: wrap; /*Os itens flexíveis são quebrados em multiplas linhas.*/
+    /*flex-flow: row wrap; /*O flex-flow é um atalho para as propriedades flex-direction e flex-wrap.*/
+    justify-content: center; /*Alinha todos os objetos ao centro*/
+    /*justify-content: flex-start; /*O valor inicial é flex-start, que alinha os elementos rente à borda esquerda do contêiner*/
+    /*justify-content: flex-end;/*Resulta em um alinhamento oposto, rente à borda direita do contêiner*/
+    /*justify-content: space-around; /* Para gerar uma quantidade igual de espaço à direita e à esquerda.*/
+    /*justify-content: space-between; /*pode ser usado para ocupar todo o espaço livre após a disposição dos itens e dividi-lo igualmente entre os itens.*/
+    /*justify-content: space-evenly; /*os itens são distribuídos igualmente no espaço disponível.*/
+    /*Quando o flex-direction tiver o parâmetro de column, as outras funcionalidades descritas funcionaram da mesma forma, aplicando na óptica da coluna.*/
+    align-items: center;/*Alinhas horizontalmente, Todos os parâmetros usando no align-items tem esse tipo de comportamento. */
+    
+    /* Aqui estão todas as opções para a propriedade align-items:
+    stretch: Estica os itens para preencher o contorno ao longo do eixo transversal (o eixo perpendicular ao eixo principal).
+    flex-start: Alinha os itens ao início do contêiner ao longo do eixo transversal.
+    flex-end: Alinha os itens ao final do contêiner ao longo do eixo transversal.
+    center: Centraliza os itens verticalmente dentro do contêiner ao longo do eixo transversal.
+    baseline: Alinha os itens pela linha de base (a linha imaginária onde a maioria dos caracteres específicos) dentro do contêiner ao longo do eixo transversal. */
+}
+
+.texts{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.content{
+    width: 250px;
+}
+
+img {
+    width: 250px;
+}

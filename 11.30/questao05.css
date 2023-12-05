@@ -1,0 +1,10 @@
+* { margin: 0px; padding: 0px;}
+
+body {background-color: aquamarine; display: grid; grid-template-rows: 10%;}
+ 
+.img01 { grid-template-areas: img01;}
+.img02 { grid-template-areas: img02;} 
+.img03 { grid-template-areas: img03;}
+.img04 {grid-template-areas: img04;}
+.img05 { grid-template-areas: img05;}
+.img06 {grid-template-areas: img06;}

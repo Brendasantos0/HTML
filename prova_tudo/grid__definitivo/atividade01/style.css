@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,200px); /*Para definir o número e o tamanho das colunas em um contêiner de grade.  */
+    grid-template-rows: 200px 200px;
+    gap: 0px; /* especificar o espaço entre as linhas e colunas dos elementos dentro do contêiner. */
+    /* align-items: center;
+    justify-items: center; */
+    grid-template-areas: "red yellow"
+    "green blue";
+} 
+
+div{
+    width: 200px;
+    height: 200px;
+}
+
+.red{
+    background-color: red;
+    /* grid-row: 2;
+    grid-column: 1; */
+    grid-area: red;
+}
+
+.blue{
+    background-color: blue;
+    /* grid-row: 2;
+    grid-column: 2; */
+    grid-area: blue;
+}
+
+.green{
+    background-color: green;
+    /* grid-row: 1;
+    grid-column: 1; */
+    grid-area: green;
+}
+
+.yellom{
+    background-color: yellow;
+    /* grid-row: 1;
+    grid-column: 2; */
+    grid-area: yellow;
+}

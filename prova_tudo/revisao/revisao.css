@@ -1,0 +1,144 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+h1 {
+    margin-bottom: 20px 0px;
+    background-color: antiquewhite;
+}
+
+/* Inicio do layout Flex*/
+.flex-header{
+    background-color: #7e7e7e;
+    width: 99vw;
+    height: 80px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.flex-div-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 99vw;
+    height: 300px;
+    background-color: rgb(153, 0, 255);
+}
+
+.flex-div-section{
+    width: 32.6%;
+    height: 90%;
+    background-color: violet;
+
+}
+
+.flex-footer {
+    background-color: blue;
+    width: 99vw;
+    height: 200px;
+}
+/* FIM do layout FLEX*/
+
+/* Inicio do layout GRID*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3fr);
+    grid-template-rows: 80px 275px 195px;
+    background-color: #7e7e7e;
+    gap: 15px;
+}
+
+.grid-header{
+    grid-column: 1/4 ;
+    grid-row: 1;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2fr);
+    justify-content: space-between;
+    padding: 30px;
+    
+}
+.grid-section1{
+    grid-column: 1 ;
+    grid-row: 2;
+    background-color: blue;
+}
+.grid-section2{
+    grid-column:2 ;
+    grid-row: 2 ;
+    background-color: pink;
+}
+.grid-section3 {
+    grid-column:3 ;
+    grid-row: 2;
+    background-color: red;
+}
+.grid-footer{
+    grid-column: 1/4;
+    grid-row:3 ;
+    background-color: green ;
+}
+.grid-h2 {
+    grid-column: 1;
+}
+.grid-h2-2{
+    grid-column: 2;
+}
+
+/* FIM do layout GRID*/
+/* Inicio do layout GRID com area*/
+
+.grid-container-a {
+    display: grid;
+    width: 99vw;
+    grid-template-rows: 80px 275px 195px;
+    gap: 15px;
+    grid-template-areas: 
+    "header header header"
+    "sect1 sect2 sect3"
+    "footer footer footer" 
+    ;
+}
+.grid-header-a{
+    grid-area: header;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(2fr);
+    justify-content: space-between;
+    padding: 30px;
+    grid-template-areas: 
+    "h2-1 h2-2"
+    ;
+}
+.grid-section1-a{
+    grid-area: sect1;
+    background-color: palevioletred;
+}
+.grid-section2-a{
+    grid-area: sect2;
+    background-color: purple;
+}
+.grid-section3-a{
+    grid-area: sect3;
+    background-color: orangered;
+}
+.grid-footer-a {
+    grid-area: footer;
+    background-color: green;
+}
+
+.grid-h2-a{
+    grid-area: h2-1 ;
+}
+.grid-h2-2-a{ 
+    grid-area: h2-2 ;
+}
+
+/* FIM do layout GRID com area*/

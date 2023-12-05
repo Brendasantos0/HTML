@@ -1,0 +1,12 @@
+* { margin: 0px; padding: 0px;}
+
+body { min-height: 100vh; width: 49vw; margin: 0 auto; flex-direction: column; display: flex;}
+
+.header { height: 100px; background-color: grey;}
+
+.main { display: flex; padding: 20px 0px; width: 100vh; height: 400px; margin: 0 auto; gap: 20px; }
+
+.div01 {height: 400px; width: 800px; background-color: blue;}
+.div02 { height: 400px; width: 400px; background-color: green;}
+
+.footer { height: 60px; background-color: red;}

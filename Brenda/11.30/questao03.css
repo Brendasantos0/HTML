@@ -1,0 +1,17 @@
+* { margin: 0px; padding: 0px;}
+
+body { display: flex; min-height: 100vh; height: 100vh; flex-direction:column ; grid-template-areas:
+   'div01'
+   'div02'
+   'div03' 
+;}
+
+.header { height: 100px; background-color: black; }
+
+.main { height: 379px; background-color: red; display: flex; padding: 30px; gap: 20px;}
+
+.div01 {grid-area: Your name; background-color: gray;}
+.div02 {grid-area: Ermail; background-color: gray;}
+.div03 {grid-area: Message; background-color: gray;}
+
+.footer { height: 100px; background-color: black;}

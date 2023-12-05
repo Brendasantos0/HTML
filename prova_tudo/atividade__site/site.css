@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none !important;
+    color: #ffffff;   
+}
+
+.container{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-rows: 700px 250px repeat(3, 450px) 100vh 100px;
+}
+
+.div__bg{
+    background-image: url(./images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 200px 1fr;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding-left: 90px;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(5 , 100px);
+    justify-content: center;
+    place-items: center;
+}
+
+header{
+    color:#ffffff;
+    display: grid;
+    padding-left: 100px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50px 150px 150px 150px;
+    align-items: end;
+    grid-template-areas: 
+    'headerh5 headerimg'
+    'headerh2 headerimg'
+    'headerp headerimg'
+    'headerform headerimg'
+    ;
+}
+
+.header__h5{
+    grid-area: headerh5;
+}
+
+.header__h2{
+    grid-area: headerh2;
+}
+
+.header__p{
+    grid-area: headerp;
+}
+
+.header__form{
+    grid-area: headerform;
+}
+
+.header__img{
+    grid-area: headerimg;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    justify-content: space-around;
+}
+
+section a{ 
+    text-decoration: none;
+    box-shadow: 0px 0px 5px #000000;
+    text-align: center;
+}
+
+.section__div {
+    padding: 7%;
+    background-color: #0071f8;
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+}
+

@@ -1,0 +1,7 @@
+* { margin: 0px; padding: 0px;}
+
+body { background: gray;}
+
+.main { width: 100px;h height: 100px ; display: grid;justify-content:space-beeteween; }
+
+.minfo-main {width: 100px; height: 100px;}

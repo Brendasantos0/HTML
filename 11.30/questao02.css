@@ -9,16 +9,25 @@ body { background: #1a1818; }
 hr { color: #000; background-color: #000; grid-area: hr; }
 
 .main { background-color: aqua; display: grid; grid-template-columns: 50% 50%;; }
+
 .info { background-color: #fff; display: grid; align-items: center; padding: 40px; }
+
 .info h2 { font-size: 32px; text-transform: uppercase; grid-area: h2; }
+
 .info p { font-style: italic; }
+
 .info button { padding: 20px; background-color: #fff; border: 1.5px solid #121212; text-transform: uppercase; width: 150px; font-size: 12px; }
+
 .info span {  color: gold; }
 
 .nav { display: grid; justify-content: center; padding: 5px;  }
+
 .logo { margin-bottom: 10px; }
+
 .nav ul { list-style: none; display: grid;  }
+
 li { padding: 10px; background-color: #fff; text-transform: uppercase; margin-bottom: 10px; font-weight: 900; text-align: center; display: grid; justify-content: center; align-items: center; }
+
 #yellow { color: gold; }
 
 .image { background-image: url(./imagens/questao02.01.jpg); background-repeat: no-repeat; background-size: cover; }

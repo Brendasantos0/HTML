@@ -4,6 +4,6 @@
 
 figure { border-bottom: 1px dotted #d9d9d9; display: flex; flex-direction: column; align-items: center; justify-content: space-between; text-align: center; margin-bottom: 15px; padding-bottom: 50px; }
 p { color: #777777; font-size: 12px; max-width: 90%; }
-span { font-weight: 900; color: turquoise; }
+span { font-weight: 900; color: black; }
 p span { font-weight: 600; }
 h5 { font-weight: 700; }

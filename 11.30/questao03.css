@@ -1,17 +1,11 @@
-* { margin: 0px; padding: 0px;}
+* { margin: 0px; padding: 0px; box-sizing: border-box; font-family: system-ui, sans-serif; }
 
-body { display: flex; min-height: 100vh; height: 100vh; flex-direction:column ; grid-template-areas:
-   'div01'
-   'div02'
-   'div03' 
-;}
-
-.header { height: 100px; background-color: black; }
-
-.main { height: 379px; background-color: red; display: flex; padding: 30px; gap: 20px;}
-
-.div01 {grid-area: Your name; background-color: gray;}
-.div02 {grid-area: Ermail; background-color: gray;}
-.div03 {grid-area: Message; background-color: gray;}
-
-.footer { height: 100px; background-color: black;}
+body { background-color: #252627; }
+main.grid-container { background-color: #fff; width: 80vw; margin: 0px auto; margin-top: 10vh; height: 80vh;display: grid; grid-template-columns: repeat(2, 50%); grid-gap: 5px; }
+form { display: grid; padding: 30px; grid-gap: 10px; padding-top: 80px; }
+aside { display: grid; padding: 30px; grid-gap: 10px; padding-top: 80px; justify-content: space-between; }
+input, textarea { padding: 15px; background-color: #f4f4f4; border: none; border-radius: 8px; }
+.info { font-weight: bold; }
+.say-hello { position: absolute; top: 5vh; left: 30vw; background-color: orange; padding: 20px; width: 250px; color: #fff; font-size: 32px; text-transform: uppercase; font-weight: bold; display: flex; align-items: center; justify-content: center; }
+.btn-flex-container { display: flex; align-items: center; justify-content: center; }
+button { padding: 20px; background-color: #fff; border: 1.5px solid #121212; text-transform: uppercase; width: 150px; font-size: 12px; font-weight: bold; }

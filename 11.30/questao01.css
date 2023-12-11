@@ -4,7 +4,7 @@ body { width: 100vw; height: 100vh; }
 
 .container { display: flex; width: 800px; height: 800px; margin: 0 auto; flex-wrap: wrap; }
 
-.image { width: 200px; height: 200px; background-size: cover; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 900; }
+.imag { width: 200px; height: 200px; background-size: cover; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 900; }
 
 h3 { text-shadow: 0 -0 1em #242424, 0 0 0.2em #242424, 0 -0 1em #242424; }
 

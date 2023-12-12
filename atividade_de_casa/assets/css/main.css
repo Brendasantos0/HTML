@@ -1,6 +1,6 @@
 body { background-color: #23232b; color: #fff; }
 
-.up-line { height: 15px; width: 100vw; background-color: #8c57f1; }
+.line { height: 15px; width: 100vw; background-color: #8c57f1; }
 
 header { height: 20vh; margin-top: 12vh; margin-bottom: 7vh; }
 header div.hr { background-color: #8c57f1; height: 3px; width: 25%; margin-bottom: 20px; }

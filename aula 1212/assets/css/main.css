@@ -1,0 +1,7 @@
+* { margin: 0px; padding: 0px; box-sizing: border-box;}
+
+.logo { max-width: 45px; margin-right: 10px;}
+
+.imag { background-image: url(./bootstrap/img/g_1.jpg); height: 70vh; padding: auto; background-size: cover; background-repeat: no-repeat; }
+
+.bg-primary { padding: 10px; margin: 10px; }
